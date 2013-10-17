@@ -1,0 +1,25 @@
+{
+  "name": "launch-co-api",
+  "version": "0.0.0",
+  "description": "API for launch.co site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zwigby/launch-co-api.git"
+  },
+  "keywords": [
+    "api",
+    "launch"
+  ],
+  "author": "Charlie Key <charlie@modulus.io>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "cheerio": "~0.12.3",
+    "request": "~2.27.0",
+    "express": "~3.4.1"
+  }
+}
